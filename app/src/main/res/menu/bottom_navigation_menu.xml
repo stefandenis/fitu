@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/meniuri"
+            android:enabled="true"
+
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="@string/text"
+            app:showAsAction="ifRoom"
+            app:itemIconTint="#000"/>
+    </group>
+
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/cont"
+            android:enabled="true"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/text2"
+            app:showAsAction="ifRoom"
+            app:itemIconTint="#000"/>
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/track"
+            android:enabled="true"
+            android:icon="@drawable/ic_drive_eta_black_24dp"
+            android:title="@string/text3"
+            app:showAsAction="ifRoom"
+            app:itemIconTint="#000"/>
+    </group>
+</menu>

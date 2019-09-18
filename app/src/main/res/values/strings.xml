@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobilProFinal</string>
+    <string name="valueProposition">Tu gatesti, de restul ne ocupam noi</string>
+    <string name="text">Meniuri</string>
+    <string name="text2">Cont</string>
+    <string name="text3">Tracking</string>
+    <string name="title_activity_track">Map</string>
+</resources>

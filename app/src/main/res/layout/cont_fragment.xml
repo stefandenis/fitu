@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+        android:alpha="0.8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        >
+
+        <TextView
+            android:id="@+id/welcomeMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:alpha="1"
+            android:textSize="25sp"
+            android:textColor="#FFFF"
+            android:text="Bine ai venit, Codrin!" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+
+        android:alpha="0.8"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+
+            android:src="@drawable/ic_settings_black_24dp"
+
+           />
+
+        <TextView
+            android:id="@+id/setari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:textSize="30sp"
+            android:textColor="#FFFF"
+            android:paddingRight="10dp"
+            android:text="Setari" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+
+        android:alpha="0.8"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="10dp"
+
+                android:src="@drawable/ic_favorite_black_24dp"
+
+                />
+
+            <TextView
+                android:id="@+id/favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textSize="30sp"
+                android:textColor="#FFFF"
+                android:paddingRight="10dp"
+                android:text="Favorite" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+
+        android:alpha="0.8"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="10dp"
+
+                android:src="@drawable/ic_payment_black_24dp"
+
+                />
+
+            <TextView
+                android:id="@+id/plataText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textSize="30sp"
+                android:textColor="#FFFF"
+                android:paddingRight="10dp"
+                android:text="Plata" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+
+        android:alpha="0.8"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/ic_help_black_24dp" />
+
+            <TextView
+                android:id="@+id/ajutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textSize="30sp"
+                android:textColor="#FFFF"
+                android:paddingRight="10dp"
+                android:text="Ajutor" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rock_background2"
+        android:gravity="center"
+
+        android:alpha="0.8"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="10dp"
+
+                android:src="@drawable/ic_directions_bike_black_24dp"
+
+                />
+
+            <TextView
+                android:id="@+id/welcomeMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textColor="#FFFF"
+                android:paddingRight="10dp"
+                android:text="Alatura-te echipei de livrari" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+
+</LinearLayout>

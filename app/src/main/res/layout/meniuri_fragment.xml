@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="80dp"
+            android:src="@drawable/meniu_slim"
+            android:layout_marginTop="50dp"
+            />
+        <ImageView
+            android:id="@+id/meniuMuscle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/meniu_muscle"
+            android:layout_marginBottom="80dp"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/meniu_pro"
+            android:layout_marginBottom="80dp"
+            android:adjustViewBounds="true"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#27235C"
+            android:text="Nu esti multumit de aceste combinatii?"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Creeaza propriul meniul cu retetele noastre"
+            android:textColor="#636e72"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="20dp"
+
+            />
+
+         <ImageView
+             android:id="@+id/creeazaMeniu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+                android:layout_gravity="center"
+             android:src="@drawable/ic_arrow_forward_black_24dp"
+             android:layout_marginBottom="20dp"
+             />
+
+
+
+
+    </LinearLayout>
+
+
+        <!--<Button-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Creeaza-ti propriul meniu din retele noastre"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginHorizontal="30dp"-->
+            <!--android:background="#9995a5a6"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--/>-->
+
+
+
+
+    </LinearLayout>
+</ScrollView>

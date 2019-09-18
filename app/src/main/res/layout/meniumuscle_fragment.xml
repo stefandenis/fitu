@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/background"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#27235C"
+       android:paddingVertical="20dp"
+       >
+
+       <ImageView
+           android:id="@+id/backToMeniuMuscle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:src="@drawable/ic_keyboard_backspace_black_24dp"/>
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meniu Muscle"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+
+        android:textSize="40dp"
+
+        android:layout_gravity="center"
+
+        />
+   </RelativeLayout>
+        <ImageView
+            android:id="@+id/penneSicilieneAlForno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/pennesicilienealforno"
+            android:adjustViewBounds="true"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delimiter"
+            android:text="Reteta 2"
+            android:textColor="#636e72"
+            android:textSize="70dp"
+            android:gravity="center"
+            android:paddingVertical="40dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delimiter"
+            android:text="Reteta 3"
+            android:textColor="#636e72"
+            android:textSize="70dp"
+            android:gravity="center"
+            android:paddingVertical="40dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delimiter"
+            android:text="Reteta 4"
+            android:textColor="#636e72"
+            android:textSize="70dp"
+            android:gravity="center"
+           android:paddingVertical="40dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delimiter"
+            android:text="Reteta 5"
+            android:textColor="#636e72"
+            android:textSize="70dp"
+            android:gravity="center"
+            android:paddingVertical="40dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delimiter"
+            android:text="Reteta 6"
+            android:textColor="#636e72"
+            android:textSize="70dp"
+            android:gravity="center"
+            android:paddingVertical="40dp"
+
+            />
+</LinearLayout>
+
+
+</ScrollView>
